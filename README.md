@@ -22,14 +22,6 @@ Instalador Laucher (flatpak) por [nmlynch94](https://github.com/nmlynch94/com.ja
 * Sistema operativo basado en **Arch Linux**.
 * Tener configurado `sudo` para el usuario que ejecuta el script (requerido para la configuración inicial de Polkit y pacman).
 
-## 📥 Instalación y Uso Rápido
-
-Puedes ejecutar la suite de optimización directamente con el siguiente comando:
-
-```bash
-curl -sSL https://raw.githubusercontent.com/NeTenebraes/Archlinux-JAGEX-LAUNCHER-WRAPPER/main/jagex.sh | bash
-```
-
 ---
 
 ## 🚀 ¿Qué hace exactamente este script?
