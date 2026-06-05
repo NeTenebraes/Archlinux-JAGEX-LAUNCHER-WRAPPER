@@ -1,0 +1,7 @@
+APP_ID="com.jagexlauncher.JagexLauncher"
+GAMEMODE_INI="/etc/gamemode.ini"
+POLKIT_DIR="/etc/polkit-1/rules.d"
+POLKIT_RULE="$POLKIT_DIR/10-gamemode.rules"
+DESKTOP_FILE="$HOME/.local/share/applications/com.jagexlauncher.JagexLauncher.desktop"
+ICON_START="edge-game"
+ICON_END="applications-system"
