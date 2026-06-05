@@ -90,9 +90,3 @@ El script define una política estricta en `/etc/polkit-1/rules.d/10-gamemode.ru
 * **Sin elevación ciega:** El Jagex Launcher y el sandbox de Flatpak siguen ejecutándose bajo los privilegios de tu usuario local estándar. Ningún proceso del juego obtiene acceso de superusuario.
 * **Sin Hardcoding de contraseñas:** No hay necesidad de almacenar contraseñas en texto plano ni de alterar el archivo `/etc/sudoers` de forma masiva (lo cual podría dejar una brecha abierta para que cualquier script ejecute cualquier comando como root).
 * **Supervisión del Demonio:** Es el propio demonio de Polkit del sistema operativo el que intercepta las llamadas de GameMode, valida que tu usuario sea miembro del grupo autorizado y aplica estrictamente los cambios limitados a la CPU y la zRAM, cerrando la ventana de privilegios inmediatamente después de terminar la tarea.
-
----
-
-## 📄 Licencia
-
-Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
